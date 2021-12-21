@@ -4,7 +4,6 @@
 
 
 
-
 	.copyright{
 		font-family: 'Times New Roman', Times, serif;
 		font-size: 15px;
@@ -19,6 +18,7 @@
 		overflow-y: scroll;
 	  }
 	  
+	
 
 /* scrollbar */
 ::-webkit-scrollbar {
@@ -48,26 +48,35 @@
 	 }
 
 
+
 	body {
-		background-color: rgb(255, 255, 255);
+		background-color: rgb(5, 22, 46);
 		line-height: 1;
 		background-size: 100%;
 	}
     .a{
-		background-image: url(../images/background.png);
+		background-image: url(../images/tazhaus_blurry.jpg);
+		background-repeat: no-repeat;
+		background-color: rgb(44, 79, 98);
 
 	}
 	
 	.b{
-		background-image: url(../images/day18-modern.png);
+		background-image: url(../images/blick-auf-jerusalem-vom-olberg-israel-p95ygw.jpg);
+		background-repeat: no-repeat;
+		background-color: rgb(58, 77, 26);
 	}
  
 	.c{
-		background-color: rgb(255, 255, 255);
+		background-image: url(../images/tor2_blurry.jpg);
+		background-repeat: no-repeat;
+		background-color: rgb(121, 50, 50);
 	}
 
 	.d{
-		background-image: url(../images/day17.png);
+		background-image: url(../images/zeitung_blurry.jpg);
+		background-repeat: no-repeat;
+		background-color: rgb(121, 50, 50);
 	}
 
 
@@ -125,6 +134,7 @@
 
 		html, body {
 			min-width: 320px;
+			
 		}
 
 	}
@@ -249,8 +259,8 @@
 /* Box */
 
 	.box {
-		background: #fff;
-		border-radius: 11px;
+		background: rgb(255, 255, 255);
+		border-radius: 4px;
 		box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding: 3em;
@@ -370,19 +380,21 @@
 
 	#banner {
 		width: 95%;
-		background-image: url("../images/susimage4.jpg");
+		background-color: rgb(132, 190, 175);
+		/* background-image: url("../images/blankimage.jpg"); */
 		background-size: 100%;
 
 		background-repeat: no-repeat;
 		object-fit: cover;
 		margin: auto;
-		text-align: center;
-		border-radius: 14px;
+		text-align: left;
+		
+		border-radius: 4px;
 
 	}
 
 	.titletext{
-		color: rgb(255, 255, 255);
+		color: rgb(44, 44, 44);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: x-large;
 	}
@@ -417,13 +429,13 @@
 
 
 	#bannerr h2, #bannerr h3, #bannerr h4, #bannerr h5, #bannerr h6 {
-		color: #fff;
+		color: rgb(255, 255, 255);
 	}
 
 	#bannerr h2 {
 		font-size: 3.5em;
 		line-height: 1em;
-		margin: 0 0 0.5em 0;
+		margin: 0 0 0.3em 0; 
 		padding: 0;
 	}
 
@@ -445,7 +457,7 @@
 
 
 	#bannerrr h2, #bannerrr h3, #bannerrr h4, #bannerrr h5, #bannerrr h6 {
-		color: #fff;
+		color: rgb(31, 37, 34);
 	}
 
 	#bannerrr h2 {
@@ -474,27 +486,26 @@
 	}
 
 	/* Button */
-
-	#more, #more1, #more2, #more3, #more4, #more5 {display: none;}
-	
-	  .features-row p{
-		  color:rgb(0, 0, 0)d;
-		  text-align: left;
-		  font-size: 80%;
-		  font-family: Arial, Helvetica, sans-serif;
-	}
-
-	  #myBtn, #myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5{
-		  justify-content: center;
-		  align-items: center;
-          border: 1px solid rgb(71, 71, 71);
-		  padding: 4px 8px;
-		  text-align: center;
-		  text-decoration: none;
-		  font-size: 16px;
-		  border-radius: 6px;
-		  
+	.button {
+		background-color: #ebf5ff; 
+		border: 2px solid #609bc8;
+		border-radius: 4px;
+		color: rgb(0, 0, 0);
+		padding: 4px 12px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+		
 	  }
+	  .button:hover {
+		background-color: #609bc8;
+		color: white;
+	  }
+	 
 
 
 	  .loader{
